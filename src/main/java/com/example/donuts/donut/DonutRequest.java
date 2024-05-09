@@ -6,7 +6,6 @@ public record DonutRequest(
         double price,
         int calories,
         double weight,
-        boolean availability,
         int quantity
 ) {
 }
